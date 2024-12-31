@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a472a, #0d2339);
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.glass-box {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #fff;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.decorations {
+  margin: 2rem 0;
+}
+
+.ornament {
+  font-size: 2.5rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.message {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.signature {
+  color: #ff9393;
+  font-style: italic;
+  margin-top: 1rem;
+}
